@@ -26,10 +26,10 @@ const Meta: FC = () => (
 
     {/* twitter card */}
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:creator" content="@OlaleyeBlessin" />
+    <meta name="twitter:creator" content="@kamrutkar21" />
     <meta
       name="twitter:title"
-      content="Olaleye Blessing | Frontend Developer"
+      content="Komal Amrutkar | Frontend Developer"
       key="twi:title"
     />
     <meta
@@ -39,7 +39,7 @@ const Meta: FC = () => (
     />
     <meta
       name="twitter:image"
-      content="https://raw.githubusercontent.com/Olaleye-Blessing/olaleye/master/public/static/images/blessing.jpeg"
+      content="https://raw.githubusercontent.com/kamrutkar/kamrutkar.github.io/main/public/static/images/me.png"
     />
     {/*  */}
 
@@ -52,12 +52,12 @@ const Meta: FC = () => (
     />
     <meta
       property="og:title"
-      content="Olaleye Blessing | Frontend Developer"
+      content="Komal Amrutkar | Frontend Developer"
       key="og:title"
     />
     <meta
       property="og:image"
-      content="https://raw.githubusercontent.com/Olaleye-Blessing/olaleye/master/public/static/images/blessing.jpeg"
+      content="https://raw.githubusercontent.com/kamrutkar/kamrutkar.github.io/main/public/static/images/me.png"
     />
   </Head>
 );
