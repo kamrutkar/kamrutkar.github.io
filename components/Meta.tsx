@@ -3,6 +3,8 @@ import { FC } from "react";
 
 const Meta: FC = () => (
   <Head>
+    <link rel="shortcut icon" href="public/static/images/favicon.ico" type="image/x-icon"/>
+
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     {/* Theme Color for Chrome, Firefox OS and Opera */}
