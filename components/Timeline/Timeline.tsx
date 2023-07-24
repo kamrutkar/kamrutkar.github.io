@@ -26,11 +26,25 @@ const Timeline: FC = () => {
             <div>
           
         <VerticalTimeline>
+        <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(143, 39, 73)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(143, 39, 73)' }}
+    date="July 2023 - Present"
+    iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
+    icon= {<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">Sr.React Developer</h3>
+    <h4 className="vertical-timeline-element-subtitle">UBS, NJ</h4>
+    <p>
+      It is time to apply my knowlegde in Banking Field and work on bigger projects.
+    </p>
+  </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(143, 39, 73)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(143, 39, 73)' }}
-    date="2022 - Present"
+    date="May 2022 - Aug 2022"
     iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
     icon= {<WorkIcon />}
   >
@@ -40,7 +54,7 @@ const Timeline: FC = () => {
       and then I joined healthcare company and designed Keyword Management tool.
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(153, 39, 77)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(153, 39, 77)' }}
@@ -54,7 +68,7 @@ const Timeline: FC = () => {
     I joined an advertisement company and as a part of data segmentation team, 
     supported data platform serving multiple brands like Vogue, Vanity Fair etc.
     </p>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(153, 39, 77)', color: '#fff' }}
@@ -80,12 +94,13 @@ const Timeline: FC = () => {
     <h3 className="vertical-timeline-element-title">First experience as a part of big team</h3>
     <h4 className="vertical-timeline-element-subtitle">BMC Software, India</h4>
     <p>
-    Worked on BMC Helix platform that helps customers run and reinvent their businesses with open, scalable, and 
+    I then joined BMC Software, started learning JavaScript and contributed my work to help 
+    customers run and reinvent their businesses with open, scalable, and 
     modular solutions to complex IT problems.
     </p>
   </VerticalTimelineElement>
  
-  <VerticalTimelineElement
+  {/* <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(153, 39, 77)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(153, 39, 77)' }}
@@ -99,7 +114,7 @@ const Timeline: FC = () => {
     At this time, I started to have some interest in coding. 
     I then joined Veracity Software, started learning JavaScript and contributed my work to enhance Verity360 module.
     </p>
-  </VerticalTimelineElement>
+  </VerticalTimelineElement> */}
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -112,7 +127,8 @@ const Timeline: FC = () => {
     <h3 className="vertical-timeline-element-title">Bachelor Degree</h3>
     <h4 className="vertical-timeline-element-subtitle">Pune University, India</h4>
     <p>
-    Pursued bachelor’s degree in Information Technology.
+    Pursued bachelor degree in Information Technology. At this time, 
+    I started to have some interest in coding and decided to learn JavaScript.
     </p>
   </VerticalTimelineElement>
 </VerticalTimeline>
