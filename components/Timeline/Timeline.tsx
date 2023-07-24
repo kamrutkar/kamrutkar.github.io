@@ -77,7 +77,7 @@ const Timeline: FC = () => {
     iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Master's Degree</h3>
+    <h3 className="vertical-timeline-element-title">Master Degree</h3>
     <h4 className="vertical-timeline-element-subtitle">Wilmington University, DE</h4>
     <p>
       In 2020, I decided to persue higher dgree in web development as my interest and curosity about Internet was rising.
@@ -124,7 +124,7 @@ const Timeline: FC = () => {
     iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Bachelor's Degree</h3>
+    <h3 className="vertical-timeline-element-title">Bachelor Degree</h3>
     <h4 className="vertical-timeline-element-subtitle">Pune University, India</h4>
     <p>
     Pursued bachelor's degree in Information Technology. At this time, 
