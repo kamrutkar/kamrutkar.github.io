@@ -127,7 +127,7 @@ const Timeline: FC = () => {
     <h3 className="vertical-timeline-element-title">Bachelor's Degree</h3>
     <h4 className="vertical-timeline-element-subtitle">Pune University, India</h4>
     <p>
-    Pursued bachelor’s degree in Information Technology. At this time, 
+    Pursued bachelor's degree in Information Technology. At this time, 
     I started to have some interest in coding and decided to learn JavaScript.
     </p>
   </VerticalTimelineElement>
