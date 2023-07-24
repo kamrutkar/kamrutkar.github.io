@@ -37,7 +37,7 @@ const Timeline: FC = () => {
     <h3 className="vertical-timeline-element-title">Sr.React Developer</h3>
     <h4 className="vertical-timeline-element-subtitle">UBS, NJ</h4>
     <p>
-      It's time to apply my knowlegde in Banking Field and work on bigger projects.
+      It is time to apply my knowlegde in Banking Field and work on bigger projects.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -127,7 +127,7 @@ const Timeline: FC = () => {
     <h3 className="vertical-timeline-element-title">Bachelor Degree</h3>
     <h4 className="vertical-timeline-element-subtitle">Pune University, India</h4>
     <p>
-    Pursued bachelor's degree in Information Technology. At this time, 
+    Pursued bachelor degree in Information Technology. At this time, 
     I started to have some interest in coding and decided to learn JavaScript.
     </p>
   </VerticalTimelineElement>
