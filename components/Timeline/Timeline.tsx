@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faSchool, faStar } from '@fortawesome/free-solid-svg-icons';
 import WorkIcon from './WorkIcon';
 import SchoolIcon from './SchoolIcon';
@@ -26,11 +26,12 @@ const Timeline: FC = () => {
             <div>
           
         <VerticalTimeline>
+          
         <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(143, 39, 73)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(143, 39, 73)' }}
-    date="July 2023 - Present"
+    date="Aug 2023 - Present"
     iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
     icon= {<WorkIcon />}
   >
@@ -40,6 +41,23 @@ const Timeline: FC = () => {
       It is time to apply my knowlegde in Banking Field and work on bigger projects.
     </p>
   </VerticalTimelineElement>
+
+    <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(153, 39, 77)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(153, 39, 77)' }}
+    date="Oct 2022 - July 2023"
+    iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
+    icon={<WorkIcon />}
+  >
+    <h3 className="vertical-timeline-element-title">Time to apply my enhanced skills</h3>
+    <h4 className="vertical-timeline-element-subtitle">Conde Nast, New York</h4>
+    <p>
+    I joined an advertisement company and as a part of data segmentation team, 
+    supported data platform serving multiple brands like Vogue, Vanity Fair etc.
+    </p>
+  </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(143, 39, 73)', color: '#fff' }}
@@ -54,21 +72,7 @@ const Timeline: FC = () => {
       and then I joined healthcare company and designed Keyword Management tool.
     </p>
   </VerticalTimelineElement>
-  {/* <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(153, 39, 77)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(153, 39, 77)' }}
-    date="2021 - 2022"
-    iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
-    icon={<WorkIcon />}
-  >
-    <h3 className="vertical-timeline-element-title">Time to apply my enhanced skills</h3>
-    <h4 className="vertical-timeline-element-subtitle">Conde Nast, New York</h4>
-    <p>
-    I joined an advertisement company and as a part of data segmentation team, 
-    supported data platform serving multiple brands like Vogue, Vanity Fair etc.
-    </p>
-  </VerticalTimelineElement> */}
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(153, 39, 77)', color: '#fff' }}
@@ -77,12 +81,13 @@ const Timeline: FC = () => {
     iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Master Degree</h3>
+    <h3 className="vertical-timeline-element-title">Master's Degree</h3>
     <h4 className="vertical-timeline-element-subtitle">Wilmington University, DE</h4>
     <p>
       In 2020, I decided to persue higher dgree in web development as my interest and curosity about Internet was rising.
     </p>
   </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(153, 39, 77)', color: '#fff' }}
@@ -100,7 +105,7 @@ const Timeline: FC = () => {
     </p>
   </VerticalTimelineElement>
  
-  {/* <VerticalTimelineElement
+  <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(153, 39, 77)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(153, 39, 77)' }}
@@ -114,7 +119,7 @@ const Timeline: FC = () => {
     At this time, I started to have some interest in coding. 
     I then joined Veracity Software, started learning JavaScript and contributed my work to enhance Verity360 module.
     </p>
-  </VerticalTimelineElement> */}
+  </VerticalTimelineElement>
 
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -124,7 +129,7 @@ const Timeline: FC = () => {
     iconStyle={{ background: 'rgb(3, 18, 33)', color: '#fff' }}
     icon={<SchoolIcon />}
   >
-    <h3 className="vertical-timeline-element-title">Bachelor Degree</h3>
+    <h3 className="vertical-timeline-element-title">Bachelor's Degree</h3>
     <h4 className="vertical-timeline-element-subtitle">Pune University, India</h4>
     <p>
     Pursued bachelor degree in Information Technology. At this time, 

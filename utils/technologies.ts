@@ -9,8 +9,10 @@ export const technologies: string[] = [
   "React",
   "Next.js",
   "NodeJS",
-  "Git",
-  "Github",
+  "Express",
   "ElasticSearch",
-  "RestFul APIs"
+  "RestFul APIs",
+  "Redux",
+  "Recoil",
+  "Ag-Grid"
 ];
